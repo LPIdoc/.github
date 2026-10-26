@@ -1,0 +1,50 @@
+name: Actualizar índice de repositorios
+
+on:
+  schedule:
+    # Ejecutar cada 6 horas
+    - cron: "17 */6 * * *"
+
+  # Permitir ejecución manual
+  workflow_dispatch:
+
+  # Ejecutar si se modifica el script o el workflow
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_repos.py"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Actualizar índice de repositorios
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_repos.py
+
+      - name: Guardar cambios en README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/README.md
+
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: actualizar índice de repositorios"
+            git push
+          fi
