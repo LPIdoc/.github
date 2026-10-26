@@ -32,6 +32,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Comprobar archivo README
+        run: |
+          echo "Rama actual:"
+          git branch --show-current
+
+          echo "Contenido del README:"
+          cat profile/README.md
+
+          echo "Comprobar marcadores:"
+          grep -n "REPOS:" profile/README.md
+
       - name: Actualizar índice de repositorios
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
