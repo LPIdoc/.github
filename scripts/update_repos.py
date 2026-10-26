@@ -58,12 +58,26 @@ def generate_index(repos):
         name = repo["name"]
         url = repo["html_url"]
         description = repo.get("description") or "Sin descripción."
+        homepage = (repo.get("homepage") or "").strip()
 
         description = " ".join(description.split())
         description = description.replace("\\", "\\\\")
         description = re.sub(r"([*_`[\]])", r"\\\1", description)
 
-        lines.append(f"- **[{name}]({url})**: {description}")
+        # Nombre y descripción
+        line = f"- **{name}**: {description}"
+
+        # Página web (si existe)
+        if homepage:
+            if not homepage.startswith(("https://", "http://")):
+                homepage = "https://" + homepage
+
+            line += f" · [🌐 Página web]({homepage})"
+
+        # Enlace al repositorio (siempre)
+        line += f" · [📁 Repositorio]({url})"
+
+        lines.append(line)
 
     return "\n".join(lines) if lines else "_No hay repositorios públicos._"
 
