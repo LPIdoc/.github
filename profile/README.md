@@ -9,6 +9,7 @@ Este espacio tiene como objetivo centralizar y facilitar el acceso a los recurso
 ## Contenidos
 
 <!-- REPOS:START -->
+- **[SIL](https://github.com/LPIdoc/SIL)**: Apuntes interactivos para el curso de Sistemas Lineales
 <!-- REPOS:END -->
 
 ## Objetivos
