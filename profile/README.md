@@ -9,7 +9,7 @@ Este espacio tiene como objetivo centralizar y facilitar el acceso a los recurso
 ## Contenidos
 
 <!-- REPOS:START -->
-- **lpidoc.github.io**: Sin descripción. · [🌐 Página web](https://lpidoc.github.io/) · [📁 Repositorio](https://github.com/LPIdoc/lpidoc.github.io)
+- **lpidoc.github.io**: Página web de LPIdoc · [🌐 Página web](https://lpidoc.github.io/) · [📁 Repositorio](https://github.com/LPIdoc/lpidoc.github.io)
 - **Sistemas_Lineales**: Apuntes interactivos para el curso de Sistemas Lineales · [🌐 Página web](https://lpidoc.github.io/Sistemas_Lineales/) · [📁 Repositorio](https://github.com/LPIdoc/Sistemas_Lineales)
 <!-- REPOS:END -->
 
