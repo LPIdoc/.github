@@ -8,13 +8,8 @@ Este espacio tiene como objetivo centralizar y facilitar el acceso a los recurso
 
 ## Contenidos
 
-Los repositorios de LPIdoc incluyen diferentes tipos de materiales docentes:
-
-- **Apuntes y documentación:** Fundamentos teóricos, presentaciones y material de apoyo para las asignaturas.
-- **Prácticas de laboratorio:** Guiones de prácticas, ejercicios y actividades.
-- **Notebooks interactivos:** Ejemplos, simulaciones y ejercicios desarrollados principalmente en Jupyter Notebook.
-- **Tutoriales y guías:** Documentación sobre herramientas informáticas, programación y metodologías utilizadas en las asignaturas.
-- **Recursos complementarios:** Material adicional para profundizar en los contenidos y fomentar el aprendizaje autónomo.
+<!-- REPOS:START -->
+<!-- REPOS:END -->
 
 ## Objetivos
 
@@ -25,6 +20,15 @@ LPIdoc nace con los siguientes objetivos:
 - Promover la reproducibilidad de los ejemplos y ejercicios prácticos.
 - Favorecer la colaboración y la mejora continua de los recursos educativos.
 - Impulsar el desarrollo y la difusión de materiales docentes abiertos.
+
+Con estos objetivos en mente, los repositorios de **LPIdoc** incluyen diferentes tipos de materiales docentes:
+
+- **Apuntes y documentación:** Fundamentos teóricos, presentaciones y material de apoyo para las asignaturas.
+- **Prácticas de laboratorio:** Guiones de prácticas, ejercicios y actividades.
+- **Notebooks interactivos:** Ejemplos, simulaciones y ejercicios desarrollados principalmente en Jupyter Notebook.
+- **Tutoriales y guías:** Documentación sobre herramientas informáticas, programación y metodologías utilizadas en las asignaturas.
+- **Recursos complementarios:** Material adicional para profundizar en los contenidos y fomentar el aprendizaje autónomo.
+
 
 ## Herramientas y tecnologías
 
