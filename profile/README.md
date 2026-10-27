@@ -10,6 +10,7 @@ Este espacio tiene como objetivo centralizar y facilitar el acceso a los recurso
 
 <!-- REPOS:START -->
 - **lpidoc.github.io**: Página web de LPIdoc · [🌐 Página web](https://lpidoc.github.io/) · [📁 Repositorio](https://github.com/LPIdoc/lpidoc.github.io)
+- **ML4BD**: Introduction to Machine Learning for Biomedical Data · [🌐 Página web](https://lpidoc.github.io/ML4BD/) · [📁 Repositorio](https://github.com/LPIdoc/ML4BD)
 - **MLxDB**: Introducción al Aprendizaje Automático para Datos Biomédicos · [🌐 Página web](https://lpidoc.github.io/MLxDB/) · [📁 Repositorio](https://github.com/LPIdoc/MLxDB)
 - **Sistemas_Lineales**: Apuntes interactivos para el curso de Sistemas Lineales · [🌐 Página web](https://lpidoc.github.io/Sistemas_Lineales/) · [📁 Repositorio](https://github.com/LPIdoc/Sistemas_Lineales)
 <!-- REPOS:END -->
